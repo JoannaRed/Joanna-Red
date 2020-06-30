@@ -2,9 +2,11 @@
 $font-header:'Krona One', sans-serif;
 $font-text: 'PT Serif', serif;
 *, *::before, *::after {
-	box-sizing: border-box;
+        box-sizing: border-box;
+}
+/*    <link rel="stylesheet" href="./vendor/bootstrap-grid.css">*/
 
-* {
+/** {
 margin: 0;
 padding: 0;
 border: 0;
@@ -12,26 +14,55 @@ line-height: 1.4em;
 vertical-align: baseline;
 text-decoration: none;
 outline: 0;
-}
+}*/
+
+.splash-inner {
+        margin: auto;
+        font-family: Krona One;
+        color: green;
+    }
 
 body a {
     text-decoration: none;
+    color: white;
     
 }
-    body {
-    font-family: $font-text;    
+body {
+    font-family: $font-text;
+    margin: 0;
 }
-.top {
-    background-image: url("https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+.splash {
+    display: flex;
+    background-image: url('https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     color: white;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    height: 100vs;
+    height: 100vh;
     font-family: $font-text;
 } 
-.navbar {
+.navigation {
     backface-visibility: hidden;
     
+    }
+    .navigation ul {
+          list-style-type: none;        
+    }
+    .navigation li {
+          display: inline-block;
+    }
+    .nav-link {
+        color: white;
+    }
+/*Services*/
+    .services {
+        display: flex;
+        justify-content: space-between;
+        flex: 100%;
+    }
+.wrapper {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
