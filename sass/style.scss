@@ -1,8 +1,37 @@
-header {
-    background-image: url="https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
-    color: yellow;
+/*General*/
+$font-header:'Krona One', sans-serif;
+$font-text: 'PT Serif', serif;
+*, *::before, *::after {
+	box-sizing: border-box;
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+body a {
+    text-decoration: none;
+    
+}
+    body {
+    font-family: $font-text;    
+}
+.top {
+    background-image: url("https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    color: white;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    height: 100vs;
+    font-family: $font-text;
 } 
+.navbar {
+    backface-visibility: hidden;
+    
+}

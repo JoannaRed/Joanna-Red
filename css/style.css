@@ -1,9 +1,19 @@
-header {
-  background-image: url= "https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+/*General*/
+body a {
+  text-decoration: none;
+}
+
+.top {
+  background-image: url("https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   color: yellow;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+}
+
+.navbar {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */
