@@ -30,5 +30,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoannaRed/Joanna-Red.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoannaRed/Joanna-Red/issues"
+  },
+  "homepage": "https://github.com/JoannaRed/Joanna-Red#readme",
   "description": ""
 }

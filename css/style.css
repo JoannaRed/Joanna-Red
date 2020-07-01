@@ -1,13 +1,10 @@
 /*General*/
-$font-header:'Krona One', sans-serif;
-$font-text: 'Catamaran', Sans-Serif;
-
 *, *::before, *::after {
-        box-sizing: border-box;
+  box-sizing: border-box;
 }
-/*    <link rel="stylesheet" href="./vendor/bootstrap-grid.css">*/
 
-* {
+/*    <link rel="stylesheet" href="./vendor/bootstrap-grid.css">*/
+/** {
 margin: 0;
 padding: 0;
 border: 0;
@@ -15,124 +12,78 @@ line-height: 1.4em;
 vertical-align: baseline;
 text-decoration: none;
 outline: 0;
-}
-
+}*/
 .splash-inner {
-        margin: auto;
-        font-family: Krona One;
-        color: pink;
-    }
+  margin: auto;
+  font-family: Krona One;
+  color: green;
+}
 
 body a {
-    text-decoration: none;
-    color: white;
-    
+  text-decoration: none;
+  color: white;
 }
+
 body {
-    margin: 0;
+  font-family: "PT Serif", serif;
+  margin: 0;
 }
+
 .splash {
-    display: flex;
-    background-image: url('https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    color: red;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    height: 100vh;
-} 
-.navigation {
-    backface-visibility: hidden;
-
-    
-    }
-    .navigation ul:first-of-type {
-          list-style-type: none;        
-    }
-    .navigation li {
-        display: inline-block;
-        font-family: Catamaran;
-        padding: auto 20px;
-        color: red;
-        
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("https://images.pexels.com/photos/597051/man-camera-rolleicord-watch-597051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  color: white;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  font-family: "PT Serif", serif;
 }
-    .nav-link, .nav-brand {
-        color: white;
-        font-family: Krona One;
 
-    }
+.navigation {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.navigation ul:first-of-type {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: white;
+}
+
 /*Services*/
 .services {
-    display: flex;
-    justify-content: space-between;
-    height: 200px;
-    flex: 0 0 33.333%;
-    }
-.wrapper {
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex: 100%;
+      flex: 100%;
 }
 
-.container {
-    font-family: Krona One;
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
-.services i {
-    font-size: 40px;
-    width: 60px;
-    height: 60px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    font-family: Catamaran;
-}
-.services-title {
-    display: flex;
-    flex: 100%;
-    justify-content: center;
-    font-family: Catamaran;
-    margin: 20px auto;
-    
-}
-/*Portfolio*/
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: lightgray;
-    margin: 0;
-    padding: 0;
-    width: auto;
-}
-.portfolio-title {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    flex: 100%;
-    margin: 20px auto;
-    justify-content: center;
-    font-family: Catamaran;
-}
+
 .portfolio-card {
-    display: flex;
-    width: 33.333%;
-    flex-wrap: wrap;
-    /*background-color: white;*/
-    justify-content: center;
-    margin: 20px auto;
-    }
+  width: 33.333%;
+  position: relative;
+}
+
 .portfolio-img {
-    height: 200px;
-    width: 200px;
+  position: absolute;
 }
-.wrapper-portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.portfolio-desc {
-    justify-content: space-between;
-    /*display: flex;*/
-    flex-direction: row;
-    font-family: Catamaran;
-    
-}
+/*# sourceMappingURL=style.css.map */
